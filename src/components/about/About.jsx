@@ -41,7 +41,7 @@ function About() {
             believe that the intersection of technology and design has the power
             to transform the way we live, work, and interact with each other.
             <br />
-            While constantly learning and growing, I am committed to staying
+            While constantly learning and growing, I am committed to stay
             up-to-date with the latest trends and technologies, and to honing my
             skills in areas like HTML, CSS, JavaScript, and responsive design.
           </p>

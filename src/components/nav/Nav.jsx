@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "./Nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiWrench, BiMessageSquareDetail } from "react-icons/bi";
+import { BiWrench, BiMessageSquareDetail } from "react-icons/bi";
 import { MdWorkOutline } from "react-icons/md";
 
 const Nav = () => {
@@ -31,9 +31,9 @@ const Nav = () => {
         <MdWorkOutline />
       </a>
       <a
-        href="#projects"
-        onClick={() => setActiveNav("#projects")}
-        className={activeNav === "#projects" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <BiWrench />
       </a>
