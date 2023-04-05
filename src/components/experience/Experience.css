@@ -39,3 +39,27 @@
   margin-top: 6px;
   color: var(--color-primary);
 }
+/* Media Queries for MD Devices */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+}
+
+/* Media Queries for SM Devices */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 2rem;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

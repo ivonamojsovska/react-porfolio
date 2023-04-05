@@ -67,8 +67,9 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
-  font-size: 0.93rem;
+  font-size: 0.9rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 /* Media Queries for MD Devices */
