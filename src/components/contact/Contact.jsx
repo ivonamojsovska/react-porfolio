@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiPhone } from "react-icons/bi";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_dntfnz6",
+        "template_4inkdxm",
+        form.current,
+        "Nkod-QOca7oCVOUp_"
+      )
+      .then(
+        () => {
+          alert("Message successfully sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Error. Please try again.");
+        }
+      );
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -28,7 +52,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
