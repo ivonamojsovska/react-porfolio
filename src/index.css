@@ -138,3 +138,8 @@ img {
     margin-bottom: 2rem;
   }
 }
+/* Hide a tags from pdf  */
+.sendToPdfFiller,
+.formswift-button {
+  display: none !important;
+}

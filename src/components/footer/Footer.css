@@ -51,6 +51,14 @@ footer a {
   color: var(--color-bg);
 }
 
+/* Media Queries for MD Devices */
+
+@media screen and (max-width: 1024px) {
+  footer {
+    min-height: 22rem;
+  }
+}
+
 /* Media Queries for SM Devices */
 
 @media screen and (max-width: 600px) {
@@ -61,5 +69,9 @@ footer a {
 
   .footer__socials {
     margin-bottom: 2.6rem;
+  }
+
+  footer {
+    min-height: 20rem;
   }
 }

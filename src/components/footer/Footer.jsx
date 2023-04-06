@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Design by EGATOR.All Rights Reserved.</small>
+        <small>&copy; Design by EGATOR. All Rights Reserved.</small>
       </div>
     </footer>
   );
