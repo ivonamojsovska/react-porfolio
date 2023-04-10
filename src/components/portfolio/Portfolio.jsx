@@ -1,29 +1,29 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG1 from "../../assets/guess-the-number.png";
+import IMG2 from "../../assets/Forkify.png";
 import IMG3 from "../../assets/portfolio3.jpg";
 
 const portfolioData = [
   {
     id: 1,
     image: IMG1,
-    title: "Title for project 1",
-    github: "https://githib.com",
-    demo: "https://netlify.com",
+    title: "Guess The Number - Game",
+    github: "https://github.com/ivonamojsovska/guess-the-number",
+    demo: "https://guess-the-number-ivona.netlify.app/fo",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Title for project 2",
-    github: "https://githib.com",
-    demo: "https://netlify.com",
+    title: "Forkify Recipe App",
+    github: "https://github.com/ivonamojsovska/forkify",
+    demo: "https://forkify-ivona.netlify.app/",
   },
   {
     id: 3,
     image: IMG3,
     title: "Title for project 3",
-    github: "https://githib.com",
+    github: "https://github.com",
     demo: "https://netlify.com",
   },
 ];
@@ -31,7 +31,7 @@ const portfolioData = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>Some Of My Projects</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
