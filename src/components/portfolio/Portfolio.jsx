@@ -10,7 +10,7 @@ const portfolioData = [
     image: IMG1,
     title: "Guess The Number - Game",
     github: "https://github.com/ivonamojsovska/guess-the-number",
-    demo: "https://guess-the-number-ivona.netlify.app/fo",
+    demo: "https://guess-the-number-ivona.netlify.app",
   },
   {
     id: 2,
