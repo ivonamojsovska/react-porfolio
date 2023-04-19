@@ -46,10 +46,11 @@ const Contact = () => {
           <article className="contact__option">
             <BiPhone className="contact__option-icon" />
             <h4>Phone</h4>
-            <h5 className="text-light">310.951.1029</h5>
-            <a href="tel:+13109511029" target="_blank">
-              Phone Call
-            </a>
+            <h5 className="text-light">
+              <a href="tel:+13109511029" target="_blank">
+                310.951.1029
+              </a>
+            </h5>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

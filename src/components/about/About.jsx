@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import ME from "../../assets/me.jpeg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { TbCertificate } from "react-icons/tb";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 function About() {
@@ -25,14 +25,14 @@ function About() {
               <small>1+ Year</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>NaN</small>
+              <TbCertificate className="about__icon" />
+              <h5>Certificates</h5>
+              <small>7</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>40+ Completed</small>
             </article>
           </div>
           <p>
