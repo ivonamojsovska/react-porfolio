@@ -38,15 +38,16 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5 className="text-light">ivonamojsovska15@gmail.com</h5>
-            <a href="mailto:ivonamojsovska15@gmail.com" target="_blank">
-              Send a meessage
-            </a>
+            <h5>
+              <a href="mailto:ivonamojsovska15@gmail.com" target="_blank">
+                ivonamojsovska15@gmail.com
+              </a>
+            </h5>
           </article>
           <article className="contact__option">
             <BiPhone className="contact__option-icon" />
             <h4>Phone</h4>
-            <h5 className="text-light">
+            <h5>
               <a href="tel:+13109511029" target="_blank">
                 310.951.1029
               </a>
