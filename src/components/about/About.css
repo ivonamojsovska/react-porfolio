@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
-  grid-template-columns: 30% 55%;
-  gap: 15%;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
 }
 
 .about__me {
@@ -27,6 +27,7 @@
 
 .about__me-image img {
   object-fit: cover;
+  height: auto;
   object-position: top;
 }
 
