@@ -26,8 +26,8 @@ const portfolioData = [
     image: IMG3,
     title: "DoneUndone",
     subtitle: "React, NextJS, Mongoose",
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/ivonamojsovska/capstone-project",
+    demo: "https://vercel.com/ivonamojsovska/capstone-project",
   },
 ];
 
