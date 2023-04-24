@@ -2,11 +2,12 @@
   display: grid;
   grid-template-columns: 30% 60%;
   gap: 10%;
+  text-align: center;
 }
 
 .about__me {
   width: 80%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/1.1;
   border-radius: 2rem;
   background: linear-gradient(
     35deg,
@@ -27,8 +28,7 @@
 
 .about__me-image img {
   object-fit: cover;
-  height: auto;
-  object-position: top;
+  object-position: center;
 }
 
 .about__me-image:hover {
