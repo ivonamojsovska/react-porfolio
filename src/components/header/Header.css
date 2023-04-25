@@ -1,5 +1,5 @@
 header {
-  height: 86vh;
+  height: 80vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@ header {
 /* Me */
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  /* background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   position: absolute;
   left: 50%;
@@ -46,11 +46,32 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem; */
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 10rem;
 }
 
-.me img {
-  height: auto;
+.header__img {
+  position: relative;
+  width: 19rem;
+}
+
+.me::before {
+  content: "";
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 24rem;
+  height: 33rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  /* margin-top: 4rem; */
+  border-radius: 12rem 12rem 0 0;
+  /* overflow: hidden; */
+  /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
 
 /* Scroll Down */
