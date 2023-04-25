@@ -1,5 +1,5 @@
 header {
-  height: 80vh;
+  /* height: 80vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -89,7 +89,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 90vh;
+    /* height: 90vh; */
   }
 }
 
@@ -97,7 +97,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    /* height: 100vh; */
   }
   .header__socials,
   .scroll__down {
