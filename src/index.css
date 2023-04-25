@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #d8cfd0;
-  --color-bg-variant: #b1a6a4;
+  --color-bg-variant: #b4abac82;
   --color-primary: #697184;
   --color-primary-variant: rgba(105, 113, 132, 0.6);
   --color-white: #f2f1ef;
@@ -87,10 +87,6 @@ a {
   transition: var(--transition);
 }
 
-a:hover {
-  color: var(--color-white);
-}
-
 .btn {
   width: max-content;
   display: inline-block;
@@ -106,7 +102,7 @@ a:hover {
 
 .btn:hover {
   background: var(--color-white);
-  color: var(--color-bg);
+  color: var(--color-primary);
   border-color: transparent;
 }
 

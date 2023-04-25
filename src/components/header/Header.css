@@ -62,7 +62,7 @@ header {
 .me::before {
   content: "";
   background: linear-gradient(var(--color-primary), transparent);
-  width: 24rem;
+  width: 22rem;
   height: 33rem;
   position: absolute;
   left: 50%;
@@ -88,17 +88,17 @@ header {
 /* Media Queries for MD Devices */
 
 @media screen and (max-width: 1024px) {
-  header {
-    /* height: 90vh; */
-  }
+  /* header {
+    height: 90vh;
+  } */
 }
 
 /* Media Queries for SM Devices */
 
 @media screen and (max-width: 600px) {
-  header {
-    /* height: 100vh; */
-  }
+  /* header {
+    height: 100vh;
+  } */
   .header__socials,
   .scroll__down {
     display: none;
