@@ -1,5 +1,4 @@
 header {
-  /* height: 80vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -76,17 +75,11 @@ header {
 /* Media Queries for MD Devices */
 
 @media screen and (max-width: 1024px) {
-  /* header {
-    height: 90vh;
-  } */
 }
 
 /* Media Queries for SM Devices */
 
 @media screen and (max-width: 600px) {
-  /* header {
-    height: 100vh;
-  } */
   .header__socials,
   .scroll__down {
     display: none;
