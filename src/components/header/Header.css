@@ -47,14 +47,14 @@ header {
 
 .header__img {
   position: relative;
-  width: 19rem;
+  width: 17rem;
 }
 
 .me::before {
   content: "";
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 33rem;
+  height: 30rem;
   position: absolute;
   left: 50%;
   bottom: 0;
