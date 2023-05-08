@@ -115,10 +115,11 @@
     gap: 1rem;
   }
   .about__content {
+    width: 100%;
     text-align: center;
   }
 
-  .about_content p {
+  .about__content p {
     margin: 1.5rem 0;
   }
 }
