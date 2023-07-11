@@ -39,7 +39,11 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>
-              <a href="mailto:ivonamojsovska15@gmail.com" target="_blank">
+              <a
+                href="mailto:ivonamojsovska15@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 ivonamojsovska15@gmail.com
               </a>
             </h5>
@@ -48,7 +52,7 @@ const Contact = () => {
             <BiPhone className="contact__option-icon" />
             <h4>Phone</h4>
             <h5>
-              <a href="tel:+13109511029" target="_blank">
+              <a href="tel:+13109511029" target="_blank" rel="noreferrer">
                 310.951.1029
               </a>
             </h5>

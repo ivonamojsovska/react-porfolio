@@ -6,8 +6,8 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a
         href="https://www.linkedin.com/in/ivonamojsovska/"
-        target="_blank"
         rel="noreferrer"
+        target="_blank"
       >
         <BsLinkedin />
       </a>
