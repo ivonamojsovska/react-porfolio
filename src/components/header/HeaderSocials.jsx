@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 
 const HeaderSocials = () => {
