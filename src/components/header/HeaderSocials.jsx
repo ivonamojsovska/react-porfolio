@@ -6,22 +6,22 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a
         href="https://www.linkedin.com/in/ivonamojsovska/"
-        rel="noreferrer"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <BsLinkedin />
       </a>
       <a
         href="https://github.com/ivonamojsovska"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
         <BsGithub />
       </a>
       <a
         href="https://www.instagram.com/shevonnekaraiv/"
-        rel="noreferrer"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <BsInstagram />
       </a>

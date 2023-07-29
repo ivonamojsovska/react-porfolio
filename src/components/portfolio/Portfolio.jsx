@@ -51,7 +51,7 @@ const Portfolio = () => {
                   href={github}
                   className="btn"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Github
                 </a>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Live Demo
                 </a>

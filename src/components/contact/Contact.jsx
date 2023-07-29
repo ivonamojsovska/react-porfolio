@@ -42,7 +42,7 @@ const Contact = () => {
               <a
                 href="mailto:ivonamojsovska15@gmail.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 ivonamojsovska15@gmail.com
               </a>
@@ -52,7 +52,11 @@ const Contact = () => {
             <BiPhone className="contact__option-icon" />
             <h4>Phone</h4>
             <h5>
-              <a href="tel:+13109511029" target="_blank" rel="noreferrer">
+              <a
+                href="tel:+13109511029"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 310.951.1029
               </a>
             </h5>

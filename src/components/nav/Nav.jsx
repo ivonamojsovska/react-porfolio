@@ -1,4 +1,5 @@
-import { React, useState } from "react";
+import React from "react";
+import { useState } from "react";
 import "./Nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiWrench, BiMessageSquareDetail } from "react-icons/bi";
@@ -16,6 +17,7 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
+
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
