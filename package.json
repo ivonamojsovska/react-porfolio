@@ -20,6 +20,9 @@
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^7.0.0"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
