@@ -3,6 +3,8 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/guess-the-number.png";
 import IMG2 from "../../assets/Forkify.png";
 import IMG3 from "../../assets/doneUndone.png";
+import IMG4 from "../../assets/mrPipe.png";
+import IMG5 from "../../assets/Encore.png";
 
 const portfolioData = [
   {
@@ -28,6 +30,22 @@ const portfolioData = [
     subtitle: "React, NextJS, Mongoose",
     github: "https://github.com/ivonamojsovska/next-app",
     demo: "https://next-app-xt4h.vercel.app/",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Mr. Pipe Plumbing Website",
+    subtitle: "React, TailwindCSS",
+    github: "https://github.com/ivonamojsovska/mrpipe",
+    demo: "https://www.mrpipeplumbing.co/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Encore AI for Music Artists",
+    subtitle: "NextJS, TypeScript, API, TailwindCSS, AI",
+    github: "Private Repo",
+    demo: "https://app.encorestudio.ai/",
   },
 ];
 

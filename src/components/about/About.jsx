@@ -26,18 +26,15 @@ function About() {
             <article className="about__card">
               <TbCertificate className="about__icon" />
               <h5>Certificates</h5>
-              <small>7</small>
+              <small>5</small>
             </article>
           </div>
           <p>
-            I am passionate about using my skills to create beautiful,
-            user-friendly websites that have a positive impact on the world. I
-            believe that the intersection of technology and design has the power
-            to transform the way we live, work, and interact with each other.
+            I am a Junior Software Engineer passionate about crafting beautiful, user-friendly websites that make a positive impact. With experience working on projects that leverage React, TypeScript, and CSS, I believe in the power of technology and design to enhance the way we live, work, and connect.
             <br />
-            While constantly learning and growing, I am committed to stay
-            up-to-date with the latest trends and technologies, and to honing my
-            skills in areas like HTML, CSS, JavaScript, and responsive design.
+            As I navigate my career, I am committed to continuous learning and staying up-to-date with the latest industry trends and technologies. My journey includes hands-on experience in developing responsive web applications and an eagerness to expand my skills in areas like JavaScript, HTML, and modern design principles.
+            <br />
+            I thrive in collaborative environments and am excited to contribute to innovative projects that aim to improve user experiences and foster community connections.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

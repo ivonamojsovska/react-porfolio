@@ -1,5 +1,7 @@
 import React from "react";
-import Resume from "../../assets/Forkify.png";
+import Resume from "../../assets/Ivona Mojsovska Resume.pdf";
+
+console.log(Resume);
 
 const CTA = () => {
   return (
